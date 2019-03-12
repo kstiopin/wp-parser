@@ -6,7 +6,7 @@ module.exports = {
     startTime = Date.now();
   },
   after: function () {
-    console.log(`total time ${Date.now() - startTime}sec`, guildResults);
+    console.log(`total time ${Date.now() - startTime}sec`, JSON.stringify(guildResults));
   },
   'Loading guilds': function(client) {
     guilds.slice(0, 1).forEach(guild => {

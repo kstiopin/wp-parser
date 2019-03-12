@@ -2,7 +2,7 @@
   "name": "wowprogress-parser",
   "version": "0.1.0",
   "scripts": {
-    "start": "nightwatch -e chrome"
+    "start": "nightwatch -e chrome > results.txt"
   },
   "devDependencies": {
     "chromedriver": "^2.46.0",
